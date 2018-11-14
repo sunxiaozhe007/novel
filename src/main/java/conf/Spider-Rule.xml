@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sites>
+    <site>
+        <title>顶点小说</title>
+        <charset>utf8</charset>
+        <url>https://www.23us.so</url>
+        <chapter-list-selecter>#at td a</chapter-list-selecter>
+        <chapter-detail-title-selecter>#amain h1,0</chapter-detail-title-selecter>
+        <chapter-detail-content-selecter>#contents</chapter-detail-content-selecter>
+        <chapter-detail-prev-selecter>#footlink a,0</chapter-detail-prev-selecter>
+        <chapter-detail-next-selecter>#footlink a,2</chapter-detail-next-selecter>
+    </site>
+    <site>
+        <title>笔趣阁</title>
+        <charset>gbk</charset>
+        <url>http://www.biquge.com.tw/</url>
+        <chapter-list-selecter>#list dd a</chapter-list-selecter>
+        <chapter-detail-title-selecter>.bookname h1,0</chapter-detail-title-selecter>
+        <chapter-detail-content-selecter>#content</chapter-detail-content-selecter>
+        <chapter-detail-prev-selecter>.bottem2 a,1</chapter-detail-prev-selecter>
+        <chapter-detail-next-selecter>.bottem2 a,3</chapter-detail-next-selecter>
+    </site>
+    <site>
+        <title>笔下文学</title>
+        <charset>UTF-8</charset>
+        <url>https://www.bxwx9.org</url>
+        <chapter-list-selecter>#TabCss dd a</chapter-list-selecter>
+        <chapter-detail-title-selecter>#title</chapter-detail-title-selecter>
+        <chapter-detail-content-selecter>#content</chapter-detail-content-selecter>
+        <chapter-detail-prev-selecter>#footlink a,2</chapter-detail-prev-selecter>
+        <chapter-detail-next-selecter>#footlink a,4</chapter-detail-next-selecter>
+        <novel-selecter>.grid tr</novel-selecter>
+        <novel-next-page-selecter>#pagelink .next</novel-next-page-selecter>
+    </site>
+    <site>
+        <title>看书中</title>
+        <charset>GBK</charset>
+        <url>http://www.kanshuzhong.com/</url>
+        <chapter-list-selecter>.bookcontent dd a</chapter-list-selecter>
+        <chapter-detail-title-selecter>#nr1 .ctitle</chapter-detail-title-selecter>
+        <chapter-detail-content-selecter>.textcontent</chapter-detail-content-selecter>
+        <chapter-detail-prev-selecter>.readlink a,1</chapter-detail-prev-selecter>
+        <chapter-detail-next-selecter>.readlink a,3</chapter-detail-next-selecter>
+        <novel-selecter>.book_list tr</novel-selecter>
+        <novel-next-page-selecter>#pagelink .next</novel-next-page-selecter>
+    </site>
+</sites>
