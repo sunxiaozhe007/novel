@@ -20,7 +20,7 @@ public final class ChapterSpiderFactory {
         NovelSiteEnum novelSiteEnum = NovelSiteEnum.getEnumByURL(url);
         IChapterSpider chapterSpider = null;
         switch (novelSiteEnum){
-            case BiXiaWenXue:2
+            case BiXiaWenXue:
                 chapterSpider = new BXWXChapterSpider();
                 break;
             case BiQuGe:
